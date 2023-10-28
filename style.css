@@ -47,20 +47,21 @@ button:hover{
     background-color: rgb(146, 96, 192);
     color: white;
 }
-@media (Max-width:560px) {
+@media (Max-width:350px) {
     form {
-        margin: 25px;
-        padding: 15px;
+        /* margin: 25px; */
+        /* padding: 15px; */
         border: 2px solid #5a2d2d;
         border-radius: 10px;
         width: 60%;
         display: inline-block;
         background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
         box-shadow: 5px 5px 5px  rgba(0,0,0,0.75);
-        margin-left: 42%;
+        margin-left: 33%;
         
     }
-    #formHead{
-       margin-left: 42%;
+    h1{
+        margin-left: 15%;
+        font-size: 26px;
     }
 }

@@ -57,6 +57,10 @@ button:hover{
         display: inline-block;
         background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
         box-shadow: 5px 5px 5px  rgba(0,0,0,0.75);
+        margin-left: 42%;
         
+    }
+    #formHead{
+       margin-left: 42%;
     }
 }

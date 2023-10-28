@@ -1,7 +1,14 @@
+
+*{
+    overflow: hidden;
+}
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: rgb(186, 215, 229);
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
 }
 #formHead{
     color: rgb(65, 29, 29);
@@ -9,11 +16,11 @@ body {
 }
 
 form {
-    margin: 20px;
-    padding: 15px;
+    margin-bottom: 20px;
+    padding: 8px;
     border: 2px solid #5a2d2d;
     border-radius: 10px;
-    width: 400px;
+    width: 20%;
     display: inline-block;
     background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
     box-shadow: 5px 5px 5px  rgba(0,0,0,0.75);
@@ -21,7 +28,8 @@ form {
 
 table {
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
 }
 
 table, th, td {
@@ -41,27 +49,24 @@ thead {
 }
 
 th {
-    text-align: center;
+    margin: 0 auto;
 }
 button:hover{
-    background-color: rgb(146, 96, 192);
+    background-color: rgb(136, 46, 220);
     color: white;
 }
-@media (Max-width:350px) {
+@media (Max-width:560px) {
     form {
-        /* margin: 25px; */
-        /* padding: 15px; */
+        margin: 10px;
+        padding: 15px;
         border: 2px solid #5a2d2d;
         border-radius: 10px;
-        width: 60%;
+        width: 45%;
         display: inline-block;
         background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
         box-shadow: 5px 5px 5px  rgba(0,0,0,0.75);
-        margin-left: 33%;
         
     }
-    h1{
-        margin-left: 15%;
-        font-size: 26px;
-    }
+
+    
 }

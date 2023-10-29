@@ -1,10 +1,10 @@
-*{
+/* *{
     overflow: hidden;
-}
+} */
 #data-form{
     background: rgb(34,108,195);
     background: linear-gradient(0deg, rgba(93, 139, 193, 0.959) 27%, rgb(103, 244, 232) 92%);
- width: 33%;
+ width: 400px;
  margin:auto;
  padding: 20px;
  text-align: center;
@@ -23,20 +23,20 @@
     
     border: 2px solid wheat;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(156, 173, 193, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-
+   
 }
 
 #data-table th{
- 
-    padding: 10px;
+  
+    /* padding: 10px; */
     
     border: 2px solid wheat;
+  
    
   
 }
-th,td{
-    border: 5px solid black;
-}
+
+
 button:hover{
     background:rgba(57, 163, 202, 0.959) ;
 } 
@@ -47,18 +47,21 @@ label{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (Max-width:578px){
+@media (Max-width:400px){
        
         #data-form{
             background: rgb(34,108,195);
             background: linear-gradient(0deg, rgba(93, 139, 193, 0.959) 27%, rgb(103, 244, 232) 92%);
         
-            width: 100vw;
-            padding: 10px;
+           width: 100vw;
            
-            margin-left: 100px;
+           
+            margin-left:4%;
 
            }
+         
+        
+        
            button{
             padding: 3px;
            }
@@ -68,9 +71,10 @@ label{
             color: black;
             font-family: Arial, Helvetica, sans-serif;
         }
-        .tabel{
-            width: 100vw;
+        .row-tabel{
+            margin-left: 10%;
         }
+        
        
 }
 

@@ -1,72 +1,68 @@
 
-*{
-    overflow: hidden;
+#data-form{
+    background: rgb(34,108,195);
+    background: linear-gradient(0deg, rgba(93, 139, 193, 0.959) 27%, rgb(103, 244, 232) 92%);
+ width: 25vw;
+ margin:auto;
+ padding: 15px;
+ text-align: center;
+ border-radius: 15px;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: rgb(186, 215, 229);
-    margin: 0;
-    padding: 0%;
-    box-sizing: border-box;
-}
-#formHead{
-    color: rgb(65, 29, 29);
-    text-transform: uppercase;
-}
-
-form {
-    margin-bottom: 20px;
-    padding: 8px;
-    border: 2px solid #5a2d2d;
-    border-radius: 10px;
-    width: 20%;
-    display: inline-block;
-    background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
-    box-shadow: 5px 5px 5px  rgba(0,0,0,0.75);
-}
-
-table {
-    border-collapse: collapse;
-    width: 50%;
-    margin: 0 auto;
-}
-
-table, th, td {
-    border: 1px solid rgb(58, 15, 15);
-   
-}
-
-th, td {
-    padding: 8px;
+#data-form .row{
+ 
+    margin-top: 15px;
     
 }
-
-thead {
+#data-table{
    
-    background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
-    
+    margin-left: 1%;
+    background: linear-gradient(0deg, rgba(57, 163, 202, 0.959) 27%, rgb(103, 244, 232) 92%);
+
+    border: 2px solid wheat;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(156, 173, 193, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
 }
 
-th {
-    margin: 0 auto;
+#data-table th{
+ 
+    padding: 10px;
+    
+    border: 2px solid wheat;
+   
+  
+}
+th,td{
+    border: 5px solid black;
 }
 button:hover{
-    background-color: rgb(136, 46, 220);
-    color: white;
-}
-@media (Max-width:560px) {
-    form {
-        margin: 10px;
-        padding: 15px;
-        border: 2px solid #5a2d2d;
-        border-radius: 10px;
-        width: 45%;
-        display: inline-block;
-        background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
-        box-shadow: 5px 5px 5px  rgba(0,0,0,0.75);
-        
-    }
+    background:rgba(57, 163, 202, 0.959) ;
+} 
 
-    
+label{
+    /* font-size: 16px; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
+@media (Max-width:876px){
+       
+        #data-form{
+            background: rgb(34,108,195);
+            background: linear-gradient(0deg, rgba(93, 139, 193, 0.959) 27%, rgb(103, 244, 232) 92%);
+        
+            width: 60vw;
+            padding: 10px;
+           
+
+           }
+           button{
+            padding: 3px;
+           }
+
+           label{
+            /* font-size: 16px; */
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+}
+

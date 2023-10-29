@@ -1,10 +1,12 @@
-
+*{
+    overflow: hidden;
+}
 #data-form{
     background: rgb(34,108,195);
     background: linear-gradient(0deg, rgba(93, 139, 193, 0.959) 27%, rgb(103, 244, 232) 92%);
- width: 28vw;
+ width: 33%;
  margin:auto;
- padding: 25px;
+ padding: 20px;
  text-align: center;
  border-radius: 15px;
  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -45,14 +47,14 @@ label{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (Max-width:978px){
+@media (Max-width:578px){
        
         #data-form{
             background: rgb(34,108,195);
             background: linear-gradient(0deg, rgba(93, 139, 193, 0.959) 27%, rgb(103, 244, 232) 92%);
         
-            width: 100vw;
-            /* padding: 10px; */
+            width: 80vw;
+            padding: 10px;
            
             margin-left: 100px;
 
